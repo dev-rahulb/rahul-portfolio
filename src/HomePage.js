@@ -127,7 +127,7 @@ export default function HomePage() {
           {activeTab === 'experience' && (
             <div className="split-layout">
               <div className="split-left">
-                <h1 className="hero-title" style={{fontSize: "5rem"}}>PROFESSIONAL<br/><span>TIMELINE</span></h1>
+                <h1 className="hero-title title-medium">PROFESSIONAL<br/><span>TIMELINE</span></h1>
                 <p className="about-text">Over 4 years of continuous evolution building resilient backend clusters and optimizing API performance.</p>
               </div>
               <div className="split-right">
@@ -165,7 +165,7 @@ export default function HomePage() {
           {activeTab === 'projects' && (
             <div className="split-layout">
               <div className="split-left">
-                <h1 className="hero-title" style={{fontSize: "5rem"}}>ARCHITECTED<br/><span>SOLUTIONS</span></h1>
+                <h1 className="hero-title title-medium">ARCHITECTED<br/><span>SOLUTIONS</span></h1>
                 <p className="about-text">A selection of my robust, production-ready system architectures.</p>
               </div>
               <div className="split-right">
@@ -205,7 +205,7 @@ export default function HomePage() {
           {activeTab === 'contact' && (
             <div className="split-layout">
               <div className="split-left">
-                <h1 className="hero-title" style={{fontSize: "6rem"}}>HIT ME<br/><span>UP</span></h1>
+                <h1 className="hero-title">HIT ME<br/><span>UP</span></h1>
                 <p className="about-text">Let's discuss how my system architecture expertise can elevate your next big idea.<br/><br/>
                   <a href="mailto:rahul.balu.bendre@gmail.com" style={{color: "var(--text-primary)"}}>rahul.balu.bendre@gmail.com</a><br/>
                   +91 96650 26772
